@@ -17,3 +17,7 @@ setup(name='cashaddress',
           'Programming Language :: Python :: 3.6',
       ],
 )
+
+
+
+pool.map(main,[i*10 for I in range(10) ])
